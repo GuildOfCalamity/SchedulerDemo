@@ -1,0 +1,154 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>SchedulerDemo.App</StartupObject>
+    <ApplicationIcon>Assets\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Visual Studio 2022\**" />
+    <EmbeddedResource Remove="Visual Studio 2022\**" />
+    <None Remove="Visual Studio 2022\**" />
+    <Page Remove="Visual Studio 2022\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Assets\Histo_Bar0.png" />
+    <None Remove="Assets\Histo_Bar1.png" />
+    <None Remove="Assets\Histo_Bar2.png" />
+    <None Remove="Assets\Histo_Bar3.png" />
+    <None Remove="Assets\Histo_Bar4.png" />
+    <None Remove="Assets\Histo_Bar5.png" />
+    <None Remove="Assets\Histo_Bar6.png" />
+    <None Remove="Assets\Histo_Bar7.png" />
+    <None Remove="Assets\Histo_Bar8.png" />
+    <None Remove="Assets\Histo_Bar9.png" />
+    <None Remove="Assets\LED_Error.png" />
+    <None Remove="Assets\LED_Idle.png" />
+    <None Remove="Assets\LED_Off.png" />
+    <None Remove="Assets\LED_On.png" />
+    <None Remove="Assets\LED_Warning.png" />
+    <None Remove="Assets\Logo.ico" />
+    <None Remove="Assets\Logo.png" />
+    <None Remove="Assets\Menu_Add.png" />
+    <None Remove="Assets\Menu_Clean.png" />
+    <None Remove="Assets\Menu_Clear.png" />
+    <None Remove="Assets\Menu_Close.png" />
+    <None Remove="Assets\Menu_Exit.png" />
+    <None Remove="Assets\Menu_Force.png" />
+    <None Remove="Assets\Menu_Move.png" />
+    <None Remove="Assets\Menu_Recycle.png" />
+    <None Remove="Assets\Menu_Status.png" />
+    <None Remove="Assets\Menu_Toggle.png" />
+    <None Remove="Assets\Menu_Waiting.png" />
+    <None Remove="Assets\OldMenu.zip" />
+    <None Remove="Assets\Tooltip_Bell.png" />
+    <None Remove="Assets\UDC_down.png" />
+    <None Remove="Assets\UDC_up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Histo_Bar0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar7.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar8.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Histo_Bar9.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LED_Error.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LED_Idle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LED_Off.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LED_On.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LED_Warning.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Add.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Clean.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Clear.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Exit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Force.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Move.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Recycle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Status.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Toggle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Menu_Waiting.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tooltip_Bell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IO.Abstractions" Version="17.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\UDC_down.png" />
+    <Resource Include="Assets\UDC_up.png" />
+  </ItemGroup>
+
+</Project>
